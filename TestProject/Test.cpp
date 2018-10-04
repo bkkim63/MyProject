@@ -14,7 +14,7 @@ void main()
 	};
 
 	double ratio;
-	printf("축소 또는 확대배율 : ");
+	printf("축소 또는 확대배율 입력 : ");
 	scanf("%lf", &ratio);
 
 	int newSize = (int)(6 * ratio);
