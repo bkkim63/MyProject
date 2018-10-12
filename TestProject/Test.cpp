@@ -47,7 +47,7 @@ void main()
 	{
 		for (int x = 0; x<newSize; x++)
 		{
-			printf("%2d", result[y*newSize + x]);
+			printf("%4d", result[y*newSize + x]);
 		}
 		printf("\n");
 	}
